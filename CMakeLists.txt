@@ -16,7 +16,7 @@ project(meshoptimizer VERSION 0.20 LANGUAGES CXX)
 
 option(MESHOPT_BUILD_DEMO "Build demo" OFF)
 option(MESHOPT_BUILD_GLTFPACK "Build gltfpack" OFF)
-option(MESHOPT_BUILD_SHARED_LIBS "Build shared libraries" OFF)
+option(MESHOPT_BUILD_SHARED_LIBS "Build shared libraries" ON)
 option(MESHOPT_WERROR "Treat warnings as errors" OFF)
 set(MESHOPT_BASISU_PATH "" CACHE STRING "")
 
